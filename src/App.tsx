@@ -22,7 +22,7 @@ function App() {
           <ul>
             <li>Volleyball</li>
             <li>Dungeons & Dragons</li>
-            <li>Reading <i>some recommendations:</i></li>
+            <li>Reading - <i>some recommendations:</i></li>
               <ol>
                 <li>The 13 &amp; &frac12; Lives of Captain Bluebear - Walter Moers</li>
                 <li>The Anthropocene Reviewed - John Green</li>

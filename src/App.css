@@ -6,13 +6,8 @@
   justify-items: center;
 }
 
-.v-frame {
-  height: 100%;
-  max-width: 720px;
-
-}
-
 .app {
+  max-width: 950px;
   background-color: var(--background);
   margin: 0.5% 0;
 }
