@@ -14,5 +14,9 @@ Notes on running the site.
 
 ## Deployment with AWS Amplify ##
 
-<forthcoming>
+1. Log in to the AWS Management Console.
+2. Allow AWS Amplify to access your Github repository.
+3. Set up your domain in Route 53.
+4. Create your Amplify App and deploy it.
+5. Add your custom domain.
 
