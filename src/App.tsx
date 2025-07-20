@@ -1,4 +1,5 @@
-import './App.css'
+import './App.css';
+import { Bulleted } from './components/Simple';
 
 function Footer() {
 
@@ -19,9 +20,12 @@ function Footer() {
   // return the footer
   return (
     <div className="footer">
-      <a href="https://github.com/randallkentbrown/site-v3" target="_blank">code</a>
-      &nbsp;&bull;&nbsp;
-      <span>have a great {word}</span>
+      <Bulleted elements={
+        [
+          <a href="https://github.com/randallkentbrown/site-v3" target="_blank">code</a>,
+          <span>have a great {word}</span>
+        ]
+      }/>
     </div>
   );
 
