@@ -1,5 +1,32 @@
 import './App.css'
 
+function Footer() {
+
+  // fun little easter egg
+  let time = new Date();
+  let hours = time.getHours();
+  let word = "time";
+  if (hours < 6) {
+    word = "night";
+  } else if (hours < 12) {
+    word = "morning";
+  } else if (hours < 18) {
+    word = "day";
+  } else {
+    word = "evening";
+  }
+
+  // return the footer
+  return (
+    <div className="footer">
+      <a href="https://github.com/randallkentbrown/site-v3" target="_blank">code</a>
+      &nbsp;&bull;&nbsp;
+      <span>have a great {word}</span>
+    </div>
+  );
+
+}
+
 function App() {
   
   return (
@@ -31,6 +58,8 @@ function App() {
           </ul>
           There's not much else here yet, but thanks for visiting.
         </div>
+        <div className="flexy" />
+        <Footer />
       </div>
       <div className="flexy" />
     </div>
