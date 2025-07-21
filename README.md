@@ -16,7 +16,8 @@ Notes on running the site.
 
 1. Log in to the AWS Management Console.
 2. Allow AWS Amplify to access your Github repository.
-3. Set up your domain in Route 53.
-4. Create your Amplify App and deploy it.
-5. Add your custom domain.
-
+3. Create your Amplify App and deploy it.
+4. Set up your domain in a hosted zone in Route 53.
+5. Set your domain's nameservers to be the Route 53 servers.
+6. Add your custom domain to your Amplify App.
+7. Once you get the green checkmark, wait up to 36 hours to ensure that all cached DNS records have expired.
