@@ -21,3 +21,9 @@ Notes on running the site.
 5. Set your domain's nameservers to be the Route 53 servers.
 6. Add your custom domain to your Amplify App.
 7. Once you get the green checkmark, wait up to 36 hours to ensure that all cached DNS records have expired.
+
+## Branching Strategy ##
+
+1. Prefix branches with `development/` if you are making small improvements or bugfixes.
+2. Prefix branches with `enhancement/` if the changes alter the design of the site, visually or under the hood.
+3. Prefix branches with `hotfix/` if things are seriously going wrong.
