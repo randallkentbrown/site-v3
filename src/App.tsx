@@ -37,6 +37,7 @@ function App() {
     <div className="frame">
       <div className="flexy" />
       <div className="app">
+        <div className="app-margin-box" />
         <h1>Randall Kent Brown Jr.</h1>
         <div className="h-divider bg-primary" />
         <div className="contents">
@@ -63,11 +64,13 @@ function App() {
           There's not much else here yet, but thanks for visiting.
         </div>
         <div className="flexy" />
+        <div className="h-divider bg-primary" />
         <Footer />
+        <div className="app-margin-box" />
       </div>
       <div className="flexy" />
     </div>
   )
 }
 
-export default App
+export default App;

@@ -7,17 +7,23 @@
 }
 
 .app {
+  display: flex;
+  overflow-y: auto;
+  flex-direction: column;
+  min-height: 100%;
   max-width: 950px;
   background-color: var(--background);
-  margin: 0.5% 0;
 }
 
 .flexy {
   flex: 1 0 auto;
 }
 
-.h-1p {
+.app-margin-box {
+  flex: 0 0 auto;
   height: 1%;
+  width: 100%;
+  background-color: var(--app-background);
 }
 
 .contents {
@@ -34,4 +40,5 @@
 
 .footer {
   text-align: center;
+  margin: 1% 0;
 }
