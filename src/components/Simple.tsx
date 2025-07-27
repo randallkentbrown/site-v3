@@ -1,6 +1,10 @@
 import React, { useMemo } from 'react';
 import './Simple.css';
 
+function FlexySecret() {
+    return <div className="flexy secret-text">Secret message extending the length of this page and reminding everyone reading this to pretty pretty please: Don't Forget To Be Awesome</div>;
+}
+
 type BulletedProps = {
     elements: React.ReactNode[];
 }
@@ -26,4 +30,4 @@ function Bulleted(props: BulletedProps) {
     return <>{...bulletedChildren}</>;
 };
 
-export { Bulleted };
+export { Bulleted, FlexySecret };
