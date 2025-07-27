@@ -80,7 +80,7 @@ function About() {
   return (
     <>
       <div className="contents">
-        <p className="no-top-margin">Welcome to my site! I'm Kent Brown, a software developer from Wisconsin.</p>
+        <p className="no-top-margin">I'm Kent Brown, a software developer from Wisconsin. Welcome to my site!</p>
         <p>I've got five years of application development experience, drawn from time spent in numerous industries and many excellent teams. I've contributed as a software developer, a quality engineer, and a project manager.</p>
         At RIT in Rochester, NY, I got my formal education in:
         <ul>
