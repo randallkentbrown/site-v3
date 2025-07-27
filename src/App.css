@@ -38,7 +38,29 @@
   margin-right: 1%;
 }
 
-.footer {
+.endcap-row {
   text-align: center;
   margin: 1% 0;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+
+.no-top-margin {
+  margin-top: 0;
+}
+
+.developers-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.developers-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.secret-text {
+  color: var(--background);
 }
